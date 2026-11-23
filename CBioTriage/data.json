@@ -1,0 +1,134 @@
+{
+ "version": "0.1-demo",
+ "reviewed": "[REVIEW DATE]",
+ "owner": "[CONTENT OWNER – confirm with UH]",
+ "reportContact": "[CORRECTION CONTACT – confirm with UH]",
+ "primary": {
+  "label": "University Hospital (UH)",
+  "number": "[PRIMARY NUMBER – confirm with UH]"
+ },
+ "alternate": {
+  "label": "Alternate contact",
+  "number": "[ALTERNATE NUMBER – confirm with UH]"
+ },
+ "dos": [
+  "Move away from the snake. Stay calm and keep the person still.",
+  "Call for help now.",
+  "Keep the bitten limb still and at about heart level.",
+  "Take off rings, watches and tight clothing near the bite.",
+  "Note the time of the bite.",
+  "Note what the snake looked like, or take a photo ONLY if it is safe."
+ ],
+ "donts": [
+  "Never try to catch or kill the snake.",
+  "Do not cut the bite or suck out venom.",
+  "Do not apply ice.",
+  "Tourniquet: [PLACEHOLDER – wording to be decided by UH medical reviewers].",
+  "Do not let the person walk around or drive.",
+  "Do not wait for symptoms before calling."
+ ],
+ "hospitals": [
+  {
+   "name": "Bukidnon Provincial Hospital (BPH), Maramag",
+   "number": "[NUMBER – confirm]"
+  },
+  {
+   "name": "Bukidnon Provincial Medical Center (BPMC), Malaybalay",
+   "number": "[NUMBER – confirm]"
+  },
+  {
+   "name": "Valencia Sanitarium / Adventist Medical Center",
+   "number": "[NUMBER – confirm]"
+  },
+  {
+   "name": "Cagayan de Oro City hospital (specify)",
+   "number": "[NUMBER – confirm]"
+  }
+ ],
+ "options": {
+  "areas": [
+   "University Hospital (UH)",
+   "College of Veterinary Medicine",
+   "College of Forestry",
+   "College of Agriculture",
+   "College of Arts and Sciences",
+   "College of Engineering",
+   "College of Information Sciences and Computing",
+   "College of Nursing",
+   "College of Education",
+   "College of Human Ecology",
+   "College of Business and Management",
+   "Dormitory area",
+   "Greenhouse / nursery",
+   "Farm / field area",
+   "Forest / reserve area",
+   "Sports field / gym",
+   "Road or walkway",
+   "Main gate area"
+  ],
+  "surroundings": [
+   "Inside a building",
+   "Open field / grass",
+   "Forest / thick trees",
+   "Beside a road",
+   "Near water / canal"
+  ],
+  "meet": [
+   "Yes",
+   "No"
+  ],
+  "times": [
+   "Just now",
+   "About 5 minutes ago",
+   "About 15 minutes ago",
+   "About 30 minutes ago",
+   "About 1 hour ago",
+   "More than 1 hour ago"
+  ],
+  "conditions": [
+   "Pain at bite",
+   "Swelling",
+   "Bleeding",
+   "Dizzy / weak",
+   "Vomiting",
+   "Hard to breathe",
+   "Drooping eyelids",
+   "Unconscious"
+  ],
+  "actions": [
+   "Called for help",
+   "Kept still",
+   "Removed rings / tight items",
+   "Applied tourniquet / tight band",
+   "Cleaned the wound",
+   "Nothing yet"
+  ],
+  "snakes": [
+   "Not seen",
+   "Seen – with a hood",
+   "Seen – patterned",
+   "Seen – plain colour",
+   "Photo taken safely"
+  ],
+  "etas": [
+   "Under 5 minutes",
+   "5–10 minutes",
+   "10–20 minutes",
+   "20–30 minutes",
+   "Over 30 minutes"
+  ],
+  "outcomes": [
+   "Treated at UH",
+   "Referred to another hospital",
+   "Non-venomous / observed",
+   "Unknown"
+  ],
+  "_note": "Area names and map centre are placeholders to verify with CMU. Condition and action wording must be confirmed by UH medical reviewers. syncUrl: paste a Firebase Realtime Database URL to share staff data between devices (see README)."
+ },
+ "syncUrl": "",
+ "mapCenter": {
+  "lat": 7.8575,
+  "lng": 125.0495,
+  "zoom": 16
+ }
+}

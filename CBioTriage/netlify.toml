@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+
+# The PHP backend in /api does not run on Netlify. Block it so the PHP source is never shown as text.
+[[redirects]]
+  from = "/api/*"
+  to = "/index.html"
+  status = 404
+  force = true
